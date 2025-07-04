@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="carouselExample" class="carousel slide mb-4">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ url_for('static', filename='img/pc2.png') }}" class="d-block w-100" alt="PCOS Info Image">
+>
+    </div>
+    <div class="carousel-item action">
+      <img src="{{ url_for('static', filename='img/pc1.jpeg') }}" class="d-block w-100" alt="PCOS Info Image">
+>
+    </div>
+  </div>
+</div>
+
+<div class="text-center">
+  <h2 class="mb-3">PCOS Detection and Awareness</h2>
+  
+  <p>Welcome to the PCOS checker website — helping young women predict Polycystic Ovary Syndrome risk using medical indicators and data science.</p>
+  <p>
+    This project aims to <strong>predict the risk of Polycystic Ovary Syndrome (PCOS)</strong> in females aged 13–25 using machine learning techniques.
+    PCOS is a hormonal disorder that can lead to irregular periods, infertility, weight gain, and metabolic issues. Early detection is crucial
+    for effective treatment and lifestyle management.
+  </p>
+  <a href="/checker" class="btn btn-primary mt-3">Try the Checker</a>
+</div>
+{% endblock %}

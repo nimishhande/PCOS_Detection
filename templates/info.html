@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+<h4 class="mt-4"> Parameters Used and Their Importance</h4>
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>Parameter</th>
+          <th>Meaning</th>
+          <th>Importance</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Age</td>
+          <td>Age of the patient</td>
+          <td>Helps identify trends in hormonal changes related to PCOS</td>
+        </tr>
+        <tr>
+          <td>BMI</td>
+          <td>Body Mass Index</td>
+          <td>Obesity is a major PCOS risk factor and affects hormonal balance</td>
+        </tr>
+        <tr>
+          <td>Fast_food (0–3)</td>
+          <td>Fast food consumption level</td>
+          <td>Unhealthy diet contributes to metabolic issues linked to PCOS</td>
+        </tr>
+        <tr>
+          <td>LH</td>
+          <td>Luteinizing Hormone</td>
+          <td>High LH compared to FSH is a key PCOS indicator</td>
+        </tr>
+        <tr>
+          <td>FSH</td>
+          <td>Follicle Stimulating Hormone</td>
+          <td>Involved in ovulation; imbalance is common in PCOS</td>
+        </tr>
+        <tr>
+          <td>PRL</td>
+          <td>Prolactin</td>
+          <td>Elevated PRL can affect menstruation and ovulation</td>
+        </tr>
+        <tr>
+          <td>AMH</td>
+          <td>Anti-Mullerian Hormone</td>
+          <td>High AMH levels are often found in women with PCOS</td>
+        </tr>
+        <tr>
+          <td>Vit_D3</td>
+          <td>Vitamin D3</td>
+          <td>Deficiency is linked with hormonal and metabolic imbalance</td>
+        </tr>
+        <tr>
+          <td>BP Systolic/Diastolic</td>
+          <td>Blood Pressure</td>
+          <td>High blood pressure is often seen with PCOS-related complications</td>
+        </tr>
+        <tr>
+          <td>Cycle Length</td>
+          <td>Days between menstrual cycles</td>
+          <td>Irregular cycles are a core symptom of PCOS</td>
+        </tr>
+        <tr>
+          <td>Pregnant</td>
+          <td>Pregnancy status</td>
+          <td>Helps differentiate hormonal variation from PCOS vs. pregnancy</td>
+        </tr>
+        <tr>
+          <td>Blood Group</td>
+          <td>User's blood type</td>
+          <td>Experimental feature; some studies suggest correlation</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<p>These values are often available in lab reports or physical checkups.</p>
+{% endblock %}

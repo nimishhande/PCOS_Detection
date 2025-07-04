@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<h3 class="mb-3">About This Project</h3>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">🩺 About the PCOS Risk Prediction Project</h2>
+  <p>
+    This project aims to <strong>predict the risk of Polycystic Ovary Syndrome (PCOS)</strong> in females aged 13–25 using machine learning techniques.
+    PCOS is a hormonal disorder that can lead to irregular periods, infertility, weight gain, and metabolic issues. Early detection is crucial
+    for effective treatment and lifestyle management.
+  </p>
+
+  <h4 class="mt-4"> About the Dataset</h4>
+  <p>
+    We utilized a real-world dataset sourced from <strong>Kaggle</strong> and validated clinical data. The dataset includes medical and lifestyle features:
+    <ul>
+      <li>Hormonal indicators: LH, FSH, PRL, AMH</li>
+      <li>Body and lifestyle metrics: BMI, fast food intake, Vitamin D3</li>
+      <li>Vital signs: BP Systolic and Diastolic</li>
+      <li>Reproductive history: Menstrual cycle length, pregnancy status</li>
+    </ul>
+    The data has been cleaned, normalized, and used to train an accurate ML model.
+  </p>
+
+  
+
+  <h4 class="mt-4"> Why This Project Matters</h4>
+  <ul>
+    <li><strong>Early Awareness:</strong> Identifies potential risk before major symptoms appear.</li>
+    <li><strong>AI-driven Screening:</strong> Uses trained ML models to detect potential PCOS patterns.</li>
+    <li><strong>User-Friendly:</strong> Simple form-based input with instant prediction results.</li>
+    <li><strong>Health Empowerment:</strong> Helps users take charge of their health with data-backed awareness.</li>
+  </ul>
+
+  <h5 class="mt-4"> User Advice:</h5>
+  <ul>
+    <li>“Low Risk” result ≠ No Risk. Continue regular checkups and healthy lifestyle.</li>
+    <li>“High Risk” result ≠ Confirmed Diagnosis. Please consult a certified gynecologist.</li>
+    <li>This tool is only an assistant and not a replacement for medical tests.</li>
+  </ul>
+</div>
+
+<p><strong>Future Scope:</strong> Integrate with monograph reports, hospital APIs, and real-time monitoring for scalable health solutions.</p>
+{% endblock %}

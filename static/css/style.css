@@ -1,0 +1,49 @@
+/* custom overrides on top of Bootstrap 5 */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #3a0be7;
+}
+
+h2, h3 {
+  font-weight: 640;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #08bff7 !important;
+}
+
+.carousel img {
+  height: 400px;
+  object-fit: cover;
+}
+
+footer {
+  font-size: 1.0rem;
+}
+
+.btn-primary, .btn-success {
+  padding: 0.6rem 2.4rem;
+  font-size: 1.05rem;
+}
+.checker-page {
+    background-color: #18d36c;  /* Soft light blue */
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.checker-page h3 {
+    color: #020e1a;
+    font-weight: bold;
+}
+
+.checker-page form {
+    background-color: #5ee0e0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
