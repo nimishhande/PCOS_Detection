@@ -57,3 +57,4 @@ def disclaimer():
     return render_template("disclaimer.html")
 
 
+app.run(host="0.0.0.0", port=8080)
