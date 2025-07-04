@@ -56,6 +56,4 @@ def about():
 def disclaimer():
     return render_template("disclaimer.html")
 
-# ───────────────────────────────
-if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+
