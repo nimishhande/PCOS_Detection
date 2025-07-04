@@ -53,6 +53,10 @@ def about():
     return render_template("about.html")
 
 @app.route("/disclaimer")
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
+
 def disclaimer():
     return render_template("disclaimer.html")
 
